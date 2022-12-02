@@ -1,0 +1,19 @@
+/* CSS used to style the GameBoard Component */
+
+
+body {
+    font-family: Jost, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+.GameBoard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,35 @@
+/* CSS used to style the SingleCard Component */
+
+.flip-container {
+    width: 1000px;
+    display: inline-block;
+    border: 4px solid white;
+    background: black;
+    position: relative;
+}
+
+.flip-container.flipped .flipper {
+    transform: rotateY(180deg);
+}
+
+.flipper {
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.back {
+    transform: rotateY(0deg);
+}
+
+.front {
+    transform: rotateY(180deg);
+}

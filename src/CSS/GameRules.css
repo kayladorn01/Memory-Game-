@@ -1,0 +1,23 @@
+/* CSS used to style the GameRules Component */
+
+.rulesbtn {
+    background:pink;
+    border: 2px solid white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.rulesheading {
+    text-align: center;
+    padding: 20px;
+}
+
+.rulescontent {
+    text-align: left;
+    padding: 20px;
+}
